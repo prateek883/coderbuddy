@@ -1,15 +1,10 @@
 # Document Object Model
 
-
 The words “the DOM” are used all over developer documentation sites and tutorials on writing interactive JavaScript code
 
-When you request a website, no matter what backend language is powering that website, it will respond with HTML. The browser receives a stream of HTML. The bytes are run through a complicated (but fully documented) parsing process that determines the different characters (e.g. the start tag character ```
-<
-```, an attribute like ```
-href
-```, a closing angle bracket like ```
->
-```). After parsing has occurred, a process called tokenization begins. Tokenization takes one character at a time and builds up tokens. The tokens are:
+When you request a website, no matter what backend language is powering that website, it will respond with HTML. The browser receives a stream of HTML. The bytes are run through a complicated (but fully documented) parsing process that determines the different characters (e.g. the start tag character `<`, an attribute like `href`, a closing angle bracket like \`\`\`
+
+```javascript
 
 1. DOCTYPE
 2. start-tag
@@ -40,9 +35,13 @@ document
 Try this:
 
 1. open the console on this page
+    
 2. type out the word document
+    
 3. careful not to declare it const document
+    
 4. careful not to wrap it in quotes document
+    
 
 press enter
 
@@ -59,8 +58,11 @@ Basically, this says that the document object is not part of JavaScript, but is 
 The DOM is standardized by the W3C. There are a number of specifications that make up the DOM, here are a few:
 
 1. Core Specification
+    
 2. Events Specification
+    
 3. Style Specification
+    
 4. Validation Specification
+    
 5. Load and Save Specification
-
