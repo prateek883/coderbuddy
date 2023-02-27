@@ -69,55 +69,61 @@ You will then be prompted to select the Medusa server starting. A beginning temp
 
 You can select the Contentful starter, the default Medusa server starter, or enter a starter URL by selecting `Other`:
 
-? `Which Medusa starter would you like to install?` …
+```bash
+? Which Medusa starter would you like to install? …
 
-❯ `medusa-starter-default`
+❯ medusa-starter-default
 
-`medusa-starter-contentful`
+medusa-starter-contentful
 
-`Other`
+Other
+```
 
 ### Choose the Storefront server
 
 After selecting the Medusa starter, terminal will asked to choose the storefront starter. You can choose one of the starters in the list included or choose `None` to skip installing a storefront:
 
-? `Which storefront starter would you like to install?`
+```bash
+? Which storefront starter would you like to install?
 
-❯ `Gatsby Starter Next.js Starter`
+❯ Gatsby Starter Next.js Starter
 
-[`medusa.express`](http://medusa.express) `(Next.js)`
+medusa.express (Next.js)
 
-[`medusa.express`](http://medusa.express) `(Gatsby)`
+medusa.express (Gatsby)
 
-`Gatsby Starter (Simple)`
+Gatsby Starter (Simple)
 
-`None`
+None
+```
 
 ### Dependency Installation
 
 After selecting one of the beginnings listed above, the installation of each component and any related dependencies will start. You'll see instructions for starting each component after the installation is complete.
 
-`Your project is ready. The available commands are:`
+```bash
+Your project is ready. The available commands are:
 
-`Medusa API`
+Medusa API
 
-`cd my-medusa-store/backend`
+cd my-medusa-store/backend
 
-`yarn start`
+yarn start
 
-`Admin`
+Admin
 
-`cd my-medusa-store/admin`
+cd my-medusa-store/admin
 
-`yarn start`
+yarn start
 
-`Storefront`
+Storefront
 
-`cd my-medusa-store/storefront`
+cd my-medusa-store/storefront
 
-`yarn develop # for Gatsby storefront`
+yarn develop # for Gatsby storefront
 
-`yarn dev # for Next.js storefront`
+yarn dev # for Next.js storefront
+```
 
 ## Conclusion
 
