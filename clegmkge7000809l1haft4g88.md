@@ -1,4 +1,15 @@
-# Bun - JavaScript Runtime better than Deno and Node
+---
+title: "Bun - JavaScript Runtime better than Deno and Node"
+seoTitle: "A Bun.js Fastest JavaScript Runtime."
+seoDescription: "Today Bun has been a talking point for everyone regarding JavaScript runtime. Bun is the new fastest runtime compared to Node.js and Deno.js. To understand"
+datePublished: Thu Feb 23 2023 04:49:23 GMT+0000 (Coordinated Universal Time)
+cuid: clegmkge7000809l1haft4g88
+slug: bun-javascript-runtime-better-than-deno-and-node
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1677127630338/4ad07b25-abd7-423d-9d9e-140a32d6b7d7.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1677127693680/ab66883d-2d5b-4bc9-bd6b-6f13845bd869.png
+tags: javascript, javascript-library, bun, javascript-runtime
+
+---
 
 ## Introduction
 
