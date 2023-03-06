@@ -16,7 +16,7 @@ When it comes to debugging in JavaScript, console.log() is one of the most commo
 ## Log a simple message to the console:
 
 ```javascript
-javascriptCopy codeconsole.log("Hello, world!");
+console.log("Hello, world!");
 ```
 
 This statement prints "Hello, world!" to the console.
@@ -24,7 +24,7 @@ This statement prints "Hello, world!" to the console.
 ## Print the value of a variable to the console:
 
 ```javascript
-javascriptCopy codelet name = "John";
+let name = "John";
 console.log(name);
 ```
 
@@ -33,7 +33,7 @@ This statement prints the value of the `name` variable to the console, which in 
 ## Print a string with the value of a variable to the console:
 
 ```javascript
-javascriptCopy codelet age = 25;
+let age = 25;
 console.log("I am " + age + " years old.");
 ```
 
@@ -42,7 +42,7 @@ This statement prints "I am 25 years old." to the console.
 ## Use template literals to print a string with the value of a variable:
 
 ```javascript
-javascriptCopy codelet city = "New York";
+let city = "New York";
 console.log(`I live in ${city}.`);
 ```
 
@@ -51,7 +51,7 @@ This statement prints "I live in New York." to the console.
 ## Print the type of a variable to the console:
 
 ```javascript
-typescriptCopy codelet number = 42;
+let number = 42;
 console.log(typeof number);
 ```
 
@@ -60,7 +60,7 @@ This statement prints "number" to the [console](https://javascript.info/devtools
 ## Print a message when a function is called:
 
 ```javascript
-javascriptCopy codefunction greet(name) {
+function greet(name) {
   console.log(`Hello, ${name}!`);
 }
 greet("John");
@@ -71,7 +71,7 @@ This statement logs "Hello, John!" to the console when the `greet()` function is
 ## Print a message with the returned value of a function:
 
 ```javascript
-sqlCopy codefunction add(a, b) {
+function add(a, b) {
   let result = a + b;
   console.log(`The result is ${result}.`);
   return result;
@@ -84,7 +84,7 @@ This statement logs "The result is 5." to the console and returns the value 5.
 ## log an error message to the console:
 
 ```javascript
-javascriptCopy codeconsole.error("Oops! Something went wrong.");
+console.error("Oops! Something went wrong.");
 ```
 
 This statement logs an error message to the console.
@@ -92,7 +92,7 @@ This statement logs an error message to the console.
 ## Log a warning message to the console:
 
 ```javascript
-javascriptCopy codeconsole.warn("Warning! This action cannot be undone.");
+console.warn("Warning! This action cannot be undone.");
 ```
 
 This statement logs a warning message to the console.
@@ -100,7 +100,7 @@ This statement logs a warning message to the console.
 ## Print the contents of an array to the console:
 
 ```javascript
-javascriptCopy codelet numbers = [1, 2, 3, 4, 5];
+let numbers = [1, 2, 3, 4, 5];
 console.log("Array contents: ", numbers);
 ```
 
@@ -109,7 +109,7 @@ This statement logs "Array contents: \[1, 2, 3, 4, 5\]" to the console.
 ## Print the contents of an object to the console:
 
 ```javascript
-javascriptCopy codelet person = { name: "John", age: 25 };
+let person = { name: "John", age: 25 };
 console.log("Person details: ", person);
 ```
 
@@ -118,7 +118,7 @@ This statement logs "Person details: {name: 'John', age: 25}" to the console.
 ## Log the time taken to execute a block of code:
 
 ```javascript
-cssCopy codeconsole.time("Code execution time");
+console.time("Code execution time");
 // Code to be timed
 console.timeEnd("Code execution time");
 ```
@@ -128,7 +128,7 @@ This statement logs the time taken to execute the block of code between `console
 ## Log the number of times a particular code block has been executed:
 
 ```javascript
-cssCopy codefor (let i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) {
   console.count("Code block executed");
 }
 ```
