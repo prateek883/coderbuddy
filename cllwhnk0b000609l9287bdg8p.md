@@ -5,7 +5,7 @@ seoDescription: "Deploy your Next.js apps easily for high performance and user s
 datePublished: Tue Aug 29 2023 15:54:05 GMT+0000 (Coordinated Universal Time)
 cuid: cllwhnk0b000609l9287bdg8p
 slug: top-10-best-practices-for-deploying-nextjs-applications
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1693324244577/ae3ea075-bffc-4f65-b9d2-30c48d782a94.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1693324516464/8ed9ae6e-5ee8-4f2b-ae88-bdc3af967c71.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1693324317503/b228e89d-9533-4bc2-9c0e-d4b905138b52.png
 tags: cdn, aws, caching, nextjs, vercel
 
