@@ -137,8 +137,8 @@ This statement logs the message "Code block executed: 1
 
 ## Conclusion
 
-console.log() is a powerful tool in JavaScript that allows developers to log messages, variables, and errors to the console during runtime. It is a simple and effective way to debug code, monitor variable values, and provide useful information about the code's behavior.
+console.log() is a powerful tool in JavaScript that allows developers to log messages, variables, and errors to the console during runtime. It is a simple and effective way to debug code, monitor variable values, and provide useful information about the code's behaviour.
 
 Developers can use different console methods to format messages and debug information in different ways, making it easier to identify and fix issues in their code. Additionally, console.log() can be used in various environments, including web browsers and Node.js, making it a versatile tool for developers to use.
 
-Overall, console.log() is an essential feature in JavaScript that can help developers to write more efficient and effective code by allowing them to easily track and monitor the behavior of their programs.
+Overall, console.log() is an essential feature in JavaScript that can help developers to write more efficient and effective code by allowing them to easily track and monitor the behaviour of their programs.
